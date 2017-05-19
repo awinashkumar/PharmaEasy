@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name_text_size">16sp</dimen>
+    <dimen name="activity_margin_content">20dp</dimen>
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_height">120dp</dimen>
+    <dimen name="right_margin">10dp</dimen>
+    <dimen name="left_margin">10dp</dimen>
+    <dimen name="top_margin">10dp</dimen>
+</resources>

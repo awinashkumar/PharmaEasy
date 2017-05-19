@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PharmaEasy</string>
+    <string name="first_name">First</string>
+    <string name="last_name">Last</string>
+</resources>
