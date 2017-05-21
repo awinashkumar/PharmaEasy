@@ -21,6 +21,8 @@ import com.example.android.pharmaeasy.utils.EndlessRecyclerOnScrollListener;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -32,8 +34,14 @@ public class MainActivity extends AppCompatActivity {
     PageAdapter mAdapter;
     LinearLayoutManager linearLayoutManager;
 
+    @BindView(R.id.page_recycler_view)
     RecyclerView listRecyclerView;
-    ProgressBar progressBar, next_page_loading_progressBar;
+
+    @BindView(R.id.progressbar)
+    ProgressBar progressBar;
+
+    @BindView(R.id.next_page_loading_progressBar)
+    ProgressBar next_page_loading_progressBar;
 
     private static final int PAGE_START = 1;
     private boolean isLoading = false;
@@ -49,10 +57,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listRecyclerView = (RecyclerView) findViewById(R.id.page_recycler_view);
-        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+        ButterKnife.bind(this);
 
-        next_page_loading_progressBar = (ProgressBar) findViewById(R.id.next_page_loading_progressBar);
         mAdapter = new PageAdapter(this);
 
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);

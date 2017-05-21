@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:7:5-21:19
+ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:7:5-22:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Awinash\.android\build-cache\b0cef4b100f3d9fe8694900c614b0806741391e9\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Awinash\.android\build-cache\d2ae6e16fa6f36cc502625d2b4938280b0a79436\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Awinash\.android\build-cache\69e44b641d461e76f293172d7f7cf32ba0209477\output\AndroidManifest.xml:29:5-20
@@ -55,6 +55,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.android.pharmaeasy.activities.PageDetailActivity
+ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:21:9-67
+	android:name
+		ADDED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml:21:19-64
 uses-sdk
 INJECTED from D:\Android_sample_project\PharmaEasy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Awinash\.android\build-cache\b0cef4b100f3d9fe8694900c614b0806741391e9\output\AndroidManifest.xml:21:5-23:78
@@ -67,7 +71,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Awinas
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Awinash\.android\build-cache\0283d21363efe875126ac756af2a2536b5d07cef\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Awinash\.android\build-cache\3baada2e80dc6eafef457abc43d53ddfc5d6eb39\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Awinash\.android\build-cache\c064c9748c4421f4b79a43d9cf78e1bc04673466\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Awinash\.android\build-cache\58adee96589455742ceada722ac914506a6f2b2a\output\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\Awinash\.android\build-cache\46a03b556463d1c3f37ac207667b48bf9988e61b\output\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Awinash\.android\build-cache\1502b133af539c36a6cbee70bbbcc0833c911489\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Awinash\.android\build-cache\b0cef4b100f3d9fe8694900c614b0806741391e9\output\AndroidManifest.xml:23:9-75

@@ -386,7 +386,9 @@
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="left_margin">10dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
     <dimen name="name_text_size">16sp</dimen>
+    <dimen name="name_text_size_18">18sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -402,6 +404,8 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="picture_height">250dp</dimen>
+    <dimen name="picture_width">250dp</dimen>
     <dimen name="right_margin">10dp</dimen>
     <dimen name="top_margin">10dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
